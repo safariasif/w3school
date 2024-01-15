@@ -1,0 +1,204 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Source Sans 3';
+}
+.header{
+    height: 80px;
+    position: relative;
+}
+.header .left{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+}
+.header .left .img{
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+}
+.header .left .img img{
+    width: 50px;
+    display: block;
+    margin: 15px auto;
+}
+.header .left .menu{
+    width: 85%;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+}
+.header .left .menu ul{
+    width: 100%;
+    list-style-type: none;
+    margin: 30px 0px;  
+} 
+.header .left .menu ul li{
+    display: inline;
+    padding: 10px 7px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.header .left .menu ul li:hover{
+    transition: 0.5s;
+    border-radius: 3px;
+    color: #ffff;
+    background-color: #04aa6d;
+}
+.header .left .menu ul .search{
+    display: inline;
+    position: relative;
+    padding: 10px 7px;
+    margin-right: 10px;
+}
+.header .left .menu ul .search i{
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    cursor: pointer;
+}
+.header .left .menu ul .search input{
+    padding: 4px 10px;
+    border-radius: 15px;
+    box-shadow: none;
+
+}
+.header .menu ul i{
+    cursor: pointer;
+}
+.header .right{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+}
+.main{
+    width: 100%;
+    height: 500px;
+    background-color: #282a35;
+    text-align: center;
+    padding: 100px 0px;
+}
+.main h1{
+    color: #fff;
+    font-size: 80px;
+    font-weight: bolder;
+
+}
+.main p{
+    color: gold;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 20px 0px;
+
+}
+.main .search-box{
+    width: 500px;
+    height: 40px;
+    margin: 20px auto;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+.main .search{
+    padding: 10px 15px;
+    font-size: 18;
+    color: #444;
+    font-weight: bold;
+    width: 85%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+}
+.main .search-box i{
+    background-color: #04aa6d;
+    color: #d9eee1;
+    padding: 10px 0px;
+    width: 15%;
+    position: absolute;
+    right: 0px;
+    height: 100%;
+}
+.not-sure{
+    font-size: 23px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+
+}
+.not-sure:hover{
+    color: #fff4a3;
+    transition: 0.5s;
+}
+.section{
+    height: 550px;
+    position: relative;
+    background-color: #d9eee1;
+}
+.section .left{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    left: 0px;
+    padding: 60px 0px;
+}
+.section .left h2{
+    font-size: 100px;
+    color: #000000;
+    font-weight: bold;
+}
+.section .left p{
+    font-size: 19px;
+    color: #000000;
+}
+.section .left p::selection{
+    color: #04aa6d;
+}
+.section .left .buttons{
+    width: 100%;
+}
+.section .left a{
+    display: block;
+    width: 230px;
+    padding: 10px 0px;
+    margin: 20px auto;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.section .left a:hover{
+    opacity: 0.8;
+    text-decoration: underline;
+}
+.section .left .html{
+    color: #d9eee1;
+    background-color: #04aa6d;
+    
+}
+.section .left .video{
+    background-color: #fff4a3;
+    color: #000000;
+}
+.section .left .ref{
+    background-color: #000000;
+    color: #fff;
+}
+.section .left .cir{
+    background-color: #ffc0c7;
+    color: #000000;
+}
+.section .right{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+}
