@@ -201,4 +201,41 @@ body{
     height: 100%;
     position: absolute;
     right: 0px;
+    padding: 70px 0px;
+}
+.section .right .main{
+    width: 400px;
+    padding: 0px 0px;
+    height: 450px;
+    background-color: #e7e9eb;
+    border-radius: 5px;
+    text-align: left;
+}
+.section .right .main h2{
+    text-align: left;
+    padding: 20px 15px;
+}
+.section .right .main .codes{
+    background-color: #fff;
+    margin: 10px 20px;
+    padding: 10px;
+    text-align: left;
+    border-left: 5px solid #04aa6d;
+}
+.section .right .main .codes span{
+    color: red;
+}
+.section .right .main .Try{
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 10px 30px;
+    background-color: #04aa6d;
+    color: #ffff;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.section .right .main .Try:hover{
+    transform: scale(0.95);
 }
